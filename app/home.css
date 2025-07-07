@@ -1,0 +1,42 @@
+.home{
+   background-color: black;
+   color: rgb(210, 125, 125);
+   display: flex;
+   margin-top: 40px;
+  margin-bottom: 5px;
+  gap: 100px;
+  height: 100%;
+}
+.right{
+    margin-bottom: 100px;
+}
+.right button{
+margin-top: 100px;
+height: 40px;
+width: 80px;
+background-color: green;
+outline: none;
+border: none;
+}
+.name{
+    background-color: white
+
+}
+.ulnav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+li{
+    list-style: none;
+    font-size: larger;
+    text-underline-position: none;
+}
+.ulnav li a {
+    text-decoration: none; /* removes underline */
+    color: rgb(36, 35, 35); /* optional - keeps links blue */
+  }
+  
+  .ulnav li a:hover {
+    color:rgb(27, 139, 187); /* optional - hover effect */
+  }
+  
