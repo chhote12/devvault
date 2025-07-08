@@ -11,13 +11,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <div className="container">
-          <img src="../public/logo.png" alt="Logo" className="logo" />
-          <div className="text-info">
-            <div className="title">codeprune.com</div>
-            <div className="link">https://www.codeprune.com</div>
-          </div>
-        </div>
+        
 
         <Navbar />
         {children}
