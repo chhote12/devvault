@@ -1,6 +1,7 @@
 import Cpp from "./Cpp";
-import './layout.css'
+import './layout.css';
 
+// ✅ This metadata works only if this is in a layout/page file under `app/`
 export const metadata = {
   title: "Learn C++ Programming | CodePrune",
   description: "Explore beginner to advanced C++ tutorials at CodePrune. Practice, build, and master C++ from scratch.",
@@ -15,19 +16,20 @@ export const metadata = {
   },
 };
 
-export default function RoowtLayout({ children }) {
-
-
-  
+export default function RootLayout({ children }) {
   return (
-    <div className="lay">
-        <div className="l">
-            <Cpp></Cpp>
-           
-        </div>
-        <div className="r">
+    <html lang="en">
+      <head />
+      <body>
+        <div className="lay">
+          <div className="l">
+            <Cpp />
+          </div>
+          <div className="r">
             {children}
+          </div>
         </div>
-    </div>
+      </body>
+    </html>
   );
 }
