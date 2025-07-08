@@ -8,89 +8,89 @@ export default function Navbar() {
       <li><Link href="/">Home</Link></li>
 
       {/* Programming Languages */}
-      <li><Link href="/tech/cpp">C++</Link></li>
-      <li><Link href="/tech/c">C</Link></li>
-      <li><Link href="/tech/python">Python</Link></li>
-      <li><Link href="/tech/java">Java</Link></li>
-      <li><Link href="/tech/javascript">JavaScript</Link></li>
-      <li><Link href="/tech/typescript">TypeScript</Link></li>
-      <li><Link href="/tech/go">Go</Link></li>
-      <li><Link href="/tech/rust">Rust</Link></li>
-      <li><Link href="/tech/ruby">Ruby</Link></li>
-      <li><Link href="/tech/kotlin">Kotlin</Link></li>
-      <li><Link href="/tech/swift">Swift</Link></li>
+      <li><Link href="/cpp">C++</Link></li>
+      <li><Link href="/c">C</Link></li>
+      <li><Link href="/python">Python</Link></li>
+      <li><Link href="/java">Java</Link></li>
+      <li><Link href="/javascript">JavaScript</Link></li>
+      <li><Link href="/typescript">TypeScript</Link></li>
+      <li><Link href="/go">Go</Link></li>
+      <li><Link href="/rust">Rust</Link></li>
+      <li><Link href="/ruby">Ruby</Link></li>
+      <li><Link href="/kotlin">Kotlin</Link></li>
+      <li><Link href="/swift">Swift</Link></li>
 
       {/* Web Technologies */}
-      <li><Link href="/tech/html">HTML</Link></li>
-      <li><Link href="/tech/css">CSS</Link></li>
-      <li><Link href="/tech/sass">SASS / SCSS</Link></li>
-      <li><Link href="/tech/bootstrap">Bootstrap</Link></li>
-      <li><Link href="/tech/tailwind">Tailwind CSS</Link></li>
+      <li><Link href="/html">HTML</Link></li>
+      <li><Link href="/css">CSS</Link></li>
+      <li><Link href="/sass">SASS / SCSS</Link></li>
+      <li><Link href="/bootstrap">Bootstrap</Link></li>
+      <li><Link href="/tailwind">Tailwind CSS</Link></li>
 
       {/* Frontend Frameworks */}
-      <li><Link href="/tech/react">React</Link></li>
-      <li><Link href="/tech/angular">Angular</Link></li>
-      <li><Link href="/tech/vue">Vue.js</Link></li>
-      <li><Link href="/tech/nextjs">Next.js</Link></li>
-      <li><Link href="/tech/svelte">Svelte</Link></li>
+      <li><Link href="/react">React</Link></li>
+      <li><Link href="/angular">Angular</Link></li>
+      <li><Link href="/vue">Vue.js</Link></li>
+      <li><Link href="/nextjs">Next.js</Link></li>
+      <li><Link href="/svelte">Svelte</Link></li>
 
       {/* Backend Frameworks */}
-      <li><Link href="/tech/nodejs">Node.js</Link></li>
-      <li><Link href="/tech/express">Express.js</Link></li>
-      <li><Link href="/tech/django">Django</Link></li>
-      <li><Link href="/tech/flask">Flask</Link></li>
-      <li><Link href="/tech/springboot">Spring Boot</Link></li>
-      <li><Link href="/tech/aspnet">ASP.NET</Link></li>
+      <li><Link href="/nodejs">Node.js</Link></li>
+      <li><Link href="/express">Express.js</Link></li>
+      <li><Link href="/django">Django</Link></li>
+      <li><Link href="/flask">Flask</Link></li>
+      <li><Link href="/springboot">Spring Boot</Link></li>
+      <li><Link href="/aspnet">ASP.NET</Link></li>
 
       {/* Databases */}
-      <li><Link href="/tech/mysql">MySQL</Link></li>
-      <li><Link href="/tech/postgresql">PostgreSQL</Link></li>
-      <li><Link href="/tech/mongodb">MongoDB</Link></li>
-      <li><Link href="/tech/sqlite">SQLite</Link></li>
-      <li><Link href="/tech/firebase">Firebase</Link></li>
-      <li><Link href="/tech/redis">Redis</Link></li>
+      <li><Link href="/mysql">MySQL</Link></li>
+      <li><Link href="/postgresql">PostgreSQL</Link></li>
+      <li><Link href="/mongodb">MongoDB</Link></li>
+      <li><Link href="/sqlite">SQLite</Link></li>
+      <li><Link href="/firebase">Firebase</Link></li>
+      <li><Link href="/redis">Redis</Link></li>
 
       {/* DevOps & Tools */}
-      <li><Link href="/tech/git">Git</Link></li>
-      <li><Link href="/tech/github">GitHub</Link></li>
-      <li><Link href="/tech/docker">Docker</Link></li>
-      <li><Link href="/tech/kubernetes">Kubernetes</Link></li>
-      <li><Link href="/tech/linux">Linux</Link></li>
-      <li><Link href="/tech/vscode">VS Code</Link></li>
-      <li><Link href="/tech/jenkins">Jenkins</Link></li>
-      <li><Link href="/tech/nginx">Nginx</Link></li>
+      <li><Link href="/git">Git</Link></li>
+      <li><Link href="/github">GitHub</Link></li>
+      <li><Link href="/docker">Docker</Link></li>
+      <li><Link href="/kubernetes">Kubernetes</Link></li>
+      <li><Link href="/linux">Linux</Link></li>
+      <li><Link href="/vscode">VS Code</Link></li>
+      <li><Link href="/jenkins">Jenkins</Link></li>
+      <li><Link href="/nginx">Nginx</Link></li>
 
       {/* AI / ML / Data Science */}
-      <li><Link href="/tech/machine-learning">Machine Learning</Link></li>
-      <li><Link href="/tech/deep-learning">Deep Learning</Link></li>
-      <li><Link href="/tech/ai">Artificial Intelligence</Link></li>
-      <li><Link href="/tech/data-science">Data Science</Link></li>
-      <li><Link href="/tech/pandas">Pandas</Link></li>
-      <li><Link href="/tech/numpy">NumPy</Link></li>
-      <li><Link href="/tech/sklearn">Scikit-learn</Link></li>
-      <li><Link href="/tech/tensorflow">TensorFlow</Link></li>
-      <li><Link href="/tech/pytorch">PyTorch</Link></li>
-      <li><Link href="/tech/keras">Keras</Link></li>
+      <li><Link href="/machine-learning">Machine Learning</Link></li>
+      <li><Link href="/deep-learning">Deep Learning</Link></li>
+      <li><Link href="/ai">Artificial Intelligence</Link></li>
+      <li><Link href="/data-science">Data Science</Link></li>
+      <li><Link href="/pandas">Pandas</Link></li>
+      <li><Link href="/numpy">NumPy</Link></li>
+      <li><Link href="/sklearn">Scikit-learn</Link></li>
+      <li><Link href="/tensorflow">TensorFlow</Link></li>
+      <li><Link href="/pytorch">PyTorch</Link></li>
+      <li><Link href="/keras">Keras</Link></li>
 
       {/* Mobile Development */}
-      <li><Link href="/tech/flutter">Flutter</Link></li>
-      <li><Link href="/tech/react-native">React Native</Link></li>
-      <li><Link href="/tech/android">Android</Link></li>
-      <li><Link href="/tech/ios">iOS</Link></li>
+      <li><Link href="/flutter">Flutter</Link></li>
+      <li><Link href="/react-native">React Native</Link></li>
+      <li><Link href="/android">Android</Link></li>
+      <li><Link href="/ios">iOS</Link></li>
 
       {/* Cybersecurity */}
-      <li><Link href="/tech/cybersecurity">Cybersecurity</Link></li>
-      <li><Link href="/tech/ethical-hacking">Ethical Hacking</Link></li>
-      <li><Link href="/tech/kali-linux">Kali Linux</Link></li>
-      <li><Link href="/tech/burp-suite">Burp Suite</Link></li>
-      <li><Link href="/tech/wireshark">Wireshark</Link></li>
+      <li><Link href="/cybersecurity">Cybersecurity</Link></li>
+      <li><Link href="/ethical-hacking">Ethical Hacking</Link></li>
+      <li><Link href="/kali-linux">Kali Linux</Link></li>
+      <li><Link href="/burp-suite">Burp Suite</Link></li>
+      <li><Link href="/wireshark">Wireshark</Link></li>
 
       {/* Cloud & Hosting */}
-      <li><Link href="/tech/aws">AWS</Link></li>
-      <li><Link href="/tech/azure">Azure</Link></li>
-      <li><Link href="/tech/gcp">Google Cloud</Link></li>
-      <li><Link href="/tech/vercel">Vercel</Link></li>
-      <li><Link href="/tech/netlify">Netlify</Link></li>
+      <li><Link href="/aws">AWS</Link></li>
+      <li><Link href="/azure">Azure</Link></li>
+      <li><Link href="/gcp">Google Cloud</Link></li>
+      <li><Link href="/vercel">Vercel</Link></li>
+      <li><Link href="/netlify">Netlify</Link></li>
     </ul>
     </div>
   )
