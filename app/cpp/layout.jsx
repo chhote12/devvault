@@ -1,25 +1,30 @@
-import Cpp from "./Cpp";
+// app/layout.js
 import './layout.css';
+import Cpp from './Cpp';
 
-// ✅ This metadata works only if this is in a layout/page file under `app/`
 export const metadata = {
-  title: "Learn C++ Programming | CodePrune",
-  description: "Explore beginner to advanced C++ tutorials at CodePrune. Practice, build, and master C++ from scratch.",
-  keywords: "C++, C++ tutorials, learn C++, C++ examples, C++ for beginners, codeprune",
+  title: 'Learn C++ Programming | CodePrune',
+  description: 'Master C++ programming with free tutorials and examples.',
+  keywords: ['C++', 'programming', 'tutorial', 'codeprune'],
   openGraph: {
-    title: "Learn C++ Programming | CodePrune",
-    description: "Master C++ with clear explanations, code samples, and real projects.",
-    url: "https://www.codeprune.com/cpp",
-    siteName: "CodePrune",
-    locale: "en_US",
-    type: "website",
+    type: 'website',
+    title: 'Learn C++ Programming | CodePrune',
+    description: 'Free C++ tutorials for beginners to advanced',
+    url: 'https://codeprune.com',
+    siteName: 'CodePrune',
+    locale: 'en_US',
   },
+  twitter: {
+    card: 'summary',
+    title: 'Learn C++ Programming | CodePrune',
+    description: 'Free C++ tutorials for beginners to advanced',
+  },
+  metadataBase: new URL('https://codeprune.com'),
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head />
       <body>
         <div className="lay">
           <div className="l">
