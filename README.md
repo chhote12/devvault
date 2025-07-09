@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CodePrune — Learn Programming & Tech
 
-## Getting Started
+Welcome to [CodePrune](https://www.codeprune.com/) — a free resource hub where you can learn programming, explore modern technologies, and get hands-on with web development, Node.js, HTML/CSS, machine learning, and more.
 
-First, run the development server:
+## About the Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+CodePrune is a learning-focused website created for students, self-learners, and tech enthusiasts. Whether you're just getting started with programming or diving into full-stack development and machine learning, this site aims to deliver helpful content, tutorials, and examples.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Technologies covered:
+- Web Development (HTML, CSS, JavaScript)
+- Backend with Node.js
+- Machine Learning basics
+- Hosting & deployment (e.g., Vercel)
+- And more
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Support & Feedback
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+If you find this project useful, please consider:
 
-## Learn More
+- Starring this project (if hosted on GitHub)
+- Sharing suggestions or ideas for improvement
+- Reporting bugs or broken links
 
-To learn more about Next.js, take a look at the following resources:
+Have a feature request, suggestion, or just want to say hi? Open an Issue or reach out through the website.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+For any questions or collaboration ideas:
 
-## Deploy on Vercel
+- Visit: [https://www.codeprune.com](https://www.codeprune.com)
+- Email: `singhchhote695@gmail.com` 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you’d like to contribute content or tutorials, feel free to fork the project and submit a pull request, or contact me directly.
+
+Thank you for visiting and supporting CodePrune.
