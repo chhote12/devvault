@@ -1,10 +1,12 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 export const metadata = {
+  title: 'Your Website',
   icons: {
-    icon: '../public/vercel.svg',
+    icon: '/favicon.ico',
   },
 };
+
 
 export default function RootLayout({ children }) {
   return (
