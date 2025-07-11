@@ -1,7 +1,18 @@
-li{
+ul li{
     color: brown;
+    display: flex;
+    flex-direction: row;
 
 }
 li a{
     text-decoration: none;
+}
+.active{
+    background-color: green;
+}
+div{
+    width: 100%;
+}
+ul{
+    width: 100%;
 }

@@ -11,10 +11,13 @@ export default function Footer() {
         </div>
         <div className="f2">
             
-           <p>all right reserverd @devvault.com</p>
+           <p>all right reserverd @codeprune.com</p>
         </div>
         <div className="f3">
-      
+      <div>
+      <p>contact</p>
+      <p>virajmahor022@gmail.com</p>
+      </div>
         </div>
     </div>
   )

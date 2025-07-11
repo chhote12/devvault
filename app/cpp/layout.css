@@ -1,12 +1,21 @@
 .lay{
   display: grid;
-   grid-template-columns: 1fr 3fr;
-   gap: 20px;
-   justify-content: center;
+  width: 100vw;
+   grid-template-columns: 30% 65%;
+   gap: 1%;
+   justify-content: baseline;
 
 }
 .r{
     display: flex;
     flex-direction: column;
-   padding: 5px;
+    width: 100%;
+   padding: 1%;
+   margin: 1%;
 }
+@media (max-width: 480px) {
+   .lay {
+     grid-template-columns: 1fr; /* Single column */
+     grid-template-rows: auto auto; /* Stack vertically */
+   }
+ }

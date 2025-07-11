@@ -1,8 +1,8 @@
 
-
+import './page.css'
 export default function page() {
   return (
-    <div>
+    <div className="main">
        <main className="content">
         <h1>Introduction to C++</h1>
         

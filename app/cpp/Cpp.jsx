@@ -1,10 +1,15 @@
+
 import Link from "next/link"
+
 import './cpp.css'
+
 export default function Cpp() {
+
+  
   return (
     <div>
       
-    <ul>
+    <ul >
 {/* C++ Basics */}
 <li><Link href="/cpp">C++ Intro</Link></li>
 <li><Link href="/cpp/get-started">C++ Get Started</Link></li>
